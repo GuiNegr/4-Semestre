@@ -1,13 +1,13 @@
-import Jogo.*;
-import Cartas.*;
+import cartas.*;
+import pokemons.Bulbassauro;
+import pokemons.Pikachu;
 
 public class Main {
     public static void main(String[] args) {
 
-        Carta j1 = new Bulbassauro();
-        Carta j2 = new Pikachu();
 
-        Jogo pokemon = new Jogo(j1 , j2);
-        System.out.println(pokemon.batalhaATK());
+
+
+
     }
 }
