@@ -2,16 +2,15 @@ package pokemons;
 
 
 import cartas.Pokemon;
+import cartas.Tipos;
 import cartas.Tipos.*;
 
 public class Bulbassauro extends Pokemon {
 
     public Bulbassauro() {
-        super(40, 120, tipos.G);
+        super(40, 120, Tipos.G,"GRASS ATACK");
     }
 
-    public int chicote(){
-        return super.vida() / 2;
-    }
+
 
 }

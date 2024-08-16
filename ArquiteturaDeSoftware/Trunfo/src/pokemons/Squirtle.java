@@ -2,14 +2,12 @@ package pokemons;
 
 
 import cartas.Pokemon;
-import cartas.Tipos.*;
+import cartas.*;
 public class Squirtle  extends Pokemon {
 
     public Squirtle() {
-        super(90, 10, tipos.A);
+        super(90, 10, Tipos.A,"WATER CANNON");
     }
 
-    public int agua(){
-        return super.vida() / 2;
-    }
+
 }

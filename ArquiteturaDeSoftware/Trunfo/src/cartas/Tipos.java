@@ -1,11 +1,11 @@
 package cartas;
 
-public class Tipos {
 
-    public enum tipos{
+
+    public enum Tipos{
         E,
         A,
         F,
         G,
     }
-}
+
