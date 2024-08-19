@@ -44,4 +44,8 @@ public class Pokemon implements MetodoPokemon{
     public String nameSpecial(){
         return this.special;
     }
+
+
+
+
 }

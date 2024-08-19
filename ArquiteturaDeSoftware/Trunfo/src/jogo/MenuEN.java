@@ -3,10 +3,10 @@ import cartas.Pokemon;
 
 import java.util.*;
 
-public class MenuEN{
+public class MenuEN {
     static private Scanner sc = new Scanner(System.in);
 
-    public static Pokemon MenuChooserCharacter(Pokemon player_one){
+    protected static Pokemon MenuChooserCharacter(Pokemon player_one){
         System.out.println();
         System.out.println("-----------------------------------------------");
         System.out.println("--PLEASE CHOSE YOUR CHARACTER-----------------");
@@ -21,7 +21,7 @@ public class MenuEN{
         return player_one;
     }
 
-    public static int MenuChooserMoviments(){
+    protected static int MenuChooserMoviments(){
         System.out.println();
         System.out.println("-----------------------------------------------");
         System.out.println("--PLEASE CHOSE YOUR MOVIMENTS-----------------");
@@ -35,7 +35,7 @@ public class MenuEN{
 
     }
 
-    public static int turn(){
+    protected static int turn(){
         System.out.println("PLAYER TURN");
         return MenuEN.MenuChooserMoviments();
     }

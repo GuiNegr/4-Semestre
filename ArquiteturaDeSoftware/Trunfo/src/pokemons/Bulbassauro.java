@@ -8,7 +8,7 @@ import cartas.Tipos.*;
 public class Bulbassauro extends Pokemon {
 
     public Bulbassauro() {
-        super(40, 120, Tipos.G,"GRASS ATACK");
+        super(40, 120, Tipos.GRAMA,"GRASS ATACK");
     }
 
 
