@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sports p {
+   width: 300px;
+}
+
+#musica p{
+    width: 300px;
+}
+
+
+
+h1{
+    color: white;
+    font-size: 20;
+    font-style: italic;
+    font-weight: bolder;
+    border-color: black;
+}
+
+.artigos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+body > header{
+    background-color: rgb(176, 85, 236);
+}
+
+header  li{
+    display: inline;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
+header li a:hover{
+    color: yellow;
+}
+
+.artigos article img{
+   
+    height: 180px;
+}
+
+article{
+    border: 1px solid wheat;
+    margin: 10px 5px 3px 2px;
+    padding: 10px 5px 5px 5px;
+}
